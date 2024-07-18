@@ -1,8 +1,12 @@
 import React from "react"
-import Nav from './components/Nav'
+import Navbar from "./components/Navbar"
+import Hero from "./components/Hero"
 
 export default function App() {
     return (
-        <Nav />
+        <div>
+            <Navbar />
+            <Hero />
+        </div>
     )
 }
