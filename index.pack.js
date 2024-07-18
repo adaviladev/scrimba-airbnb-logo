@@ -413,7 +413,7 @@ function App() {
     return _react2.default.createElement(
         "div",
         null,
-        _react2.default.createElement(Nav, null),
+        _react2.default.createElement(_Nav2.default, null),
         _react2.default.createElement(_Hero2.default, null)
     );
 }
